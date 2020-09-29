@@ -3,4 +3,4 @@ seconds = script_time % 60
 minutes_overall = script_time // 60
 minutes = minutes_overall % 60
 hours = minutes_overall // 60
-print(f'{hours:02}:{minutes:01}:{seconds:01}')
+print(f'{hours:02}:{minutes:02}:{seconds:01}')
